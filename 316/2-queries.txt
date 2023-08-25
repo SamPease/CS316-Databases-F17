@@ -1,0 +1,46 @@
+//part a
+\project_{bar} \select_{beer='Corona'} serves;
+
+//part b
+
+\project_{beer}((\select_{times_a_week=1} \select_{drinker='Ben'} frequents) \join serves);
+
+//part c
+
+\project_{name,address} (((\select_{bar= 'Talk of the Town'} serves) \join likes) \join_{drinker=name} drinker);
+
+//part d (not done)
+
+\select_{name<>name2} (\project_{name,name2} (drinker \join_{address=address2 and name<name2} (\rename_{name2,address2} drinker)));
+
+//part e
+
+(\rename_{beer} (\project_{name} beer)) \diff (\project_{beer} likes);
+
+//part f
+
+\project_{bar,beer} (
+	serves \diff
+		(\project_{bar,beer,price} (
+			(serves \join_{price<price2 and beer=beer2}
+				(\rename_{beer2,price2}(\project_{beer,price} serves))))));
+				
+//part g
+
+(\project_{drinker} frequents)
+\diff
+(\project_{drinker} 
+	((\project_{drinker,bar} frequents)
+	\diff
+	(\project_{drinker,bar} 
+		(likes \join (\project_{bar,beer} serves)))));
+		
+//part h
+
+(\project_{drinker} frequents)
+\diff	
+((\project_{drinker}	
+((\project_{drinker,bar} 
+		(likes \join (\project_{bar,beer} serves)))
+		\diff
+		(\project_{drinker,bar} frequents))));

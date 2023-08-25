@@ -1,0 +1,11 @@
+ id | year | house_name | id | student_id |      datetime       | points |                  description                   
+----+------+------------+----+------------+---------------------+--------+------------------------------------------------
+ 11 | 1991 | Gryffindor |  3 |         11 | 1991-10-31 18:00:00 |      5 | For saving Hermione from the troll
+ 11 | 1991 | Gryffindor |  1 |         11 | 1991-09-06 10:00:00 |     -1 | Cheekiness
+ 12 | 1991 | Gryffindor |  6 |         12 | 1992-09-02 11:30:00 |     10 | Getting full marks on Lockhart's quiz
+ 12 | 1991 | Gryffindor |  2 |         12 | 1991-10-31 13:00:00 |     -5 | Claimed to have gone looking for the troll
+ 13 | 1991 | Gryffindor |  7 |         13 | 1993-10-10 15:30:00 |    -50 | For throwing a crocodile heart at Draco Malfoy
+ 13 | 1991 | Gryffindor |  4 |         13 | 1991-10-31 18:00:00 |      5 | For saving Hermione from the troll
+ 41 | 1991 | Slytherin  |  5 |         41 | 1992-02-22 07:00:00 |    -20 | Wandering the corridors at night
+(7 rows)
+

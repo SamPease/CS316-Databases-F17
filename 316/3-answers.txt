@@ -1,0 +1,170 @@
+--part a
+
+select distinct bar 
+from Serves 
+where beer='Corona';
+       bar       
+-----------------
+ The Edge
+ Satisfaction
+ Down Under Pub
+ James Joyce Pub
+(4 rows)
+
+
+--part b
+
+select distinct beer
+from Serves 
+where bar IN (select bar 
+			from Frequents 
+			where (drinker='Ben' and times_a_week=1));
+   beer    
+-----------
+ Corona
+ Amstel
+ Dixie
+ Budweiser
+ Erdinger
+(5 rows)
+
+			
+--part c
+
+select distinct *
+from Drinker
+where name in (
+	select drinker
+	from likes
+	where beer in (
+		select beer
+		from Serves
+		where bar='Talk of the Town'));
+ name |      address       
+------+--------------------
+ Dan  | 300 N. Duke Street
+ Ben  | 101 W. Main Street
+ Eve  | 100 W. Main Street
+ Amy  | 100 W. Main Street
+(4 rows)
+
+
+--part d
+
+select distinct u1.name,u2.name
+from Drinker u1, drinker u2
+where u1.address = u2.address and u1.name<u2.name;
+ name | name 
+------+------
+ Amy  | Eve
+(1 row)
+
+
+--part e
+
+select name
+from beer
+where name not in (
+	select beer
+	from likes);
+   name    
+-----------
+ Full Sail
+(1 row)
+
+	
+--part f 
+
+select a.beer,a.bar
+from serves a, 
+(select beer, MAX(price)
+from serves
+group by beer) b
+where a.beer=b.beer and a.price=b.max;
+   beer    |       bar       
+-----------+-----------------
+ Budweiser | The Edge
+ Amstel    | James Joyce Pub
+ Corona    | James Joyce Pub
+ Dixie     | James Joyce Pub
+ Erdinger  | James Joyce Pub
+ Full Sail | Satisfaction
+(6 rows)
+
+
+--part g
+
+select distinct b.drinker
+from frequents b
+where not exists (
+	select a.drinker 
+	from frequents a
+	where not exists (select drinker,bar
+		from likes natural join serves
+		where drinker=a.drinker and bar=a.bar)
+		and a.drinker=b.drinker);
+ drinker 
+---------
+ Ben
+ Amy
+ Eve
+ Dan
+(4 rows)
+
+	
+--part h
+
+select distinct b.drinker
+from frequents b
+where not exists (
+	select a.drinker
+	from (select drinker,bar
+		from likes natural join serves) a 
+	where not exists (select drinker, bar
+		from frequents
+		where drinker=a.drinker and bar=a.bar)
+		and b.drinker=a.drinker);
+ drinker 
+---------
+ Dan
+(1 row)
+
+		
+--part i 
+	
+create table spending as
+(select * from serves natural join (select * from frequents natural join likes) a);
+SELECT 25
+
+alter table spending
+add amount float;
+ALTER TABLE
+
+update spending
+set amount = price*times_a_week;	
+UPDATE 25
+	
+select foo.drinker,sum(amount) amount
+from ((select drinker, amount
+	from spending) union	
+	
+	(select name drinker, 0 amount
+	from drinker)) foo
+group by foo.drinker
+order by amount desc;
+ drinker | amount 
+---------+--------
+ Dan     |   40.4
+ Ben     |   17.7
+ Amy     |   12.5
+ Eve     |   12.5
+ Coy     |      0
+(5 rows)
+
+
+
+
+
+	
+	
+

@@ -1,0 +1,66 @@
+\project_{bar} (\select_{beer = 'Corona'} serves);
+(bar:string)
+----------------------------------------------------------------------
+The Edge
+Satisfaction
+Down Under Pub
+James Joyce Pub
+----------------------------------------------------------------------
+4 tuples returned
+\project_{beer} ((\select_{times_a_week = 1} (\select_{drinker = 'Ben'} frequents)) \join serves);
+(beer:string)
+----------------------------------------------------------------------
+Corona
+Amstel
+Dixie
+Erdinger
+Budweiser
+----------------------------------------------------------------------
+5 tuples returned
+\project_{name, address} (((\select_{bar = 'Talk of the Town'} serves) \join likes) \join_{drinker = name} drinker);
+(name:string, address:string)
+----------------------------------------------------------------------
+Ben, 101 W. Main Street
+Eve, 100 W. Main Street
+Amy, 100 W. Main Street
+Dan, 300 N. Duke Street
+----------------------------------------------------------------------
+4 tuples returned
+\select_{name <> name2} (\project_{name, name2} (drinker \join_{(address = address2) and (name < name2)} (\rename_{name2, address2} drinker)));
+(name:string, name2:string)
+----------------------------------------------------------------------
+Amy, Eve
+----------------------------------------------------------------------
+1 tuple returned
+(\rename_{beer} (\project_{name} beer)) \diff (\project_{beer} likes);
+(beer:string)
+----------------------------------------------------------------------
+Full Sail
+----------------------------------------------------------------------
+1 tuple returned
+\project_{bar, beer} (serves \diff (\project_{bar, beer, price} (serves \join_{(price < price2) and (beer = beer2)} (\rename_{beer2, price2} (\project_{beer, price} serves)))));
+(bar:string, beer:string)
+----------------------------------------------------------------------
+Satisfaction, Full Sail
+James Joyce Pub, Dixie
+James Joyce Pub, Amstel
+James Joyce Pub, Corona
+The Edge, Budweiser
+James Joyce Pub, Erdinger
+----------------------------------------------------------------------
+6 tuples returned
+(\project_{drinker} frequents) \diff (\project_{drinker} ((\project_{drinker, bar} frequents) \diff (\project_{drinker, bar} (likes \join (\project_{bar, beer} serves)))));
+(drinker:string)
+----------------------------------------------------------------------
+Ben
+Amy
+Eve
+Dan
+----------------------------------------------------------------------
+4 tuples returned
+(\project_{drinker} frequents) \diff (\project_{drinker} ((\project_{drinker, bar} (likes \join (\project_{bar, beer} serves))) \diff (\project_{drinker, bar} frequents)));
+(drinker:string)
+----------------------------------------------------------------------
+Dan
+----------------------------------------------------------------------
+1 tuple returned
