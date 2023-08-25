@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+   <Democrat>
+      <M count="163"/>
+      <F count="81"/>
+   </Democrat>
+   <Republican>
+      <M count="265"/>
+      <F count="29"/>
+   </Republican>
+   <Independent>
+      <M count="2"/>
+      <F count="0"/>
+   </Independent>
+</result>

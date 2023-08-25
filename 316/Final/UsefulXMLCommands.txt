@@ -1,0 +1,5 @@
+Validate against DTD:
+xmllint --dtdvalid test.dtd --noout test.xml
+
+Run xq:
+saxonb-xquery -s test.xml test.xq > testout.xml

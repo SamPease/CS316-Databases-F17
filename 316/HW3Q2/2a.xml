@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+   <person birthday="1952-12-07" gender="F" id="C001035" name="Susan M. Collins">
+            <role enddate="2003-01-03" party="Republican" startdate="1997-01-07" state="ME"
+            type="sen"/>
+            <role enddate="2009-01-03" party="Republican" startdate="2003-01-07" state="ME"
+            type="sen"/>
+            <role enddate="2015-01-03" party="Republican" startdate="2009-01-06" state="ME"
+            type="sen"/>
+            <role current="1" enddate="2021-01-03" party="Republican" startdate="2015-01-06"
+            state="ME"
+            type="sen"/>
+        </person>
+   <person birthday="1944-04-13" gender="F" id="D000598" name="Susan A. Davis">
+            <role district="49" enddate="2003-01-03" party="Democrat" startdate="2001-01-03"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2005-01-03" party="Democrat" startdate="2003-01-07"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2007-01-03" party="Democrat" startdate="2005-01-04"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2009-01-03" party="Democrat" startdate="2007-01-04"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2011-01-03" party="Democrat" startdate="2009-01-06"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2013-01-03" party="Democrat" startdate="2011-01-05"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2015-01-03" party="Democrat" startdate="2013-01-03"
+            state="CA"
+            type="rep"/>
+            <role district="53" enddate="2017-01-03" party="Democrat" startdate="2015-01-06"
+            state="CA"
+            type="rep"/>
+            <role current="1" district="53" enddate="2019-01-03" party="Democrat"
+            startdate="2017-01-03"
+            state="CA"
+            type="rep"/>
+        </person>
+   <person birthday="1954-10-14" gender="F" id="B001278" name="Suzanne Bonamici">
+            <role district="1" enddate="2013-01-03" party="Democrat" startdate="2012-02-07"
+            state="OR"
+            type="rep"/>
+            <role district="1" enddate="2015-01-03" party="Democrat" startdate="2013-01-03"
+            state="OR"
+            type="rep"/>
+            <role district="1" enddate="2017-01-03" party="Democrat" startdate="2015-01-06"
+            state="OR"
+            type="rep"/>
+            <role current="1" district="1" enddate="2019-01-03" party="Democrat"
+            startdate="2017-01-03"
+            state="OR"
+            type="rep"/>
+        </person>
+   <person birthday="1962-02-17" gender="F" id="D000617" name="Suzan K. DelBene">
+            <role district="1" enddate="2013-01-03" party="Democrat" startdate="2012-11-13"
+            state="WA"
+            type="rep"/>
+            <role district="1" enddate="2015-01-03" party="Democrat" startdate="2013-01-03"
+            state="WA"
+            type="rep"/>
+            <role district="1" enddate="2017-01-03" party="Democrat" startdate="2015-01-06"
+            state="WA"
+            type="rep"/>
+            <role current="1" district="1" enddate="2019-01-03" party="Democrat"
+            startdate="2017-01-03"
+            state="WA"
+            type="rep"/>
+        </person>
+   <person birthday="1960-08-25" gender="F" id="B001284" name="Susan W. Brooks">
+            <role district="5" enddate="2015-01-03" party="Republican" startdate="2013-01-03"
+            state="IN"
+            type="rep"/>
+            <role district="5" enddate="2017-01-03" party="Republican" startdate="2015-01-06"
+            state="IN"
+            type="rep"/>
+            <role current="1" district="5" enddate="2019-01-03" party="Republican"
+            startdate="2017-01-03"
+            state="IN"
+            type="rep"/>
+        </person>
+</result>

@@ -1,0 +1,14 @@
+<hogwarts>
+  <house name='Gryffindor'>
+    <student id='s12' name='Hermione Granger' pet='crook' wand_core='dragon'>
+      <deed datetime='1992-09-02 11:30:00' points='10'>
+        SmartyPants
+      </deed>
+    </student>
+    <student id='s11' name='Harry' pet='crook' wand_core='dragon'>
+      <deed datetime='1992-09-05 11:30:00' points='20'>
+        blah
+      </deed>
+    </student>
+  </house>
+</hogwarts>

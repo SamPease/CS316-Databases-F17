@@ -1,0 +1,734 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jun Yang</LastAuthor>
+  <Created>2017-10-18T00:02:19Z</Created>
+  <LastSaved>2017-10-18T00:19:44Z</LastSaved>
+  <Version>15.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <PixelsPerInch>96</PixelsPerInch>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15620</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>1020</WindowTopX>
+  <WindowTopY>440</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s15">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="26" ss:ExpandedRowCount="77" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="87"
+   ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="366"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="177"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Name of Item</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Barcode Number</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Alienware Laptop w/ Charger (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00009</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00008</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Printed Circuit Board</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">X000UNDA8R</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dell inspiron 15 Laptop w/ Charger (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dell XPS Laptop w/ Charger (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00005</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00004</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">AmazonBasics 4 Port USB 3.0 Hub</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10352</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10347</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10394</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10352</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10393</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10016</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10017</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10433</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Alienware Desktop (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">5723436962</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">4AA Battery Holder</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10038</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10035</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10034</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10033</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10032</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10037</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Box of sensors (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00063</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">High Torque Standard Servo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10028</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10261</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10039</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10031</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10029</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10030</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Robot Servo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10257</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10327</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10258</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10040</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10253</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10255</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10260</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10254</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10256</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10259</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Intel Edison (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00071</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00070</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00077</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00067</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00065</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00068</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00072</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00075</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00066</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00078</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00073</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00076</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00074</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00069</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dell Monitor ST2220Tc (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">CN0HYWJP6418016M064L</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dell Monitor ST2420Lb with HDMI and VGA Cables (MLH)</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">MX04X6C0742620B51P8U</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10009</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arduino (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00081</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00059</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00054</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00058</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00087</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00062</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00082</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00060</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00056</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Asus LCD Monitor (VS247 and VS228)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10702</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10214</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10216</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10215</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BaseShield (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00053</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00085</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00088</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00083</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00080</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00055</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00057</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00086</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00079</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dell Monitor (S2340M)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10681</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10680</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10679</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">USB 2.0 A-Male to B-Male</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10445</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10436</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10432</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10438</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10447</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10431</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10441</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10440</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10437</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10443</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10357</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10358</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10132</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10131</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10359</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10361</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10129</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10363</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10362</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10360</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Particle Photon</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10528</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10527</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10520</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10519</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10515</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10534</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10532</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10526</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10535</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10523</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10530</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10514</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10517</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10522</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10536</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10525</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10538</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10516</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10513</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10439</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Oculus Rift (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00093</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00095</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00094</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00096</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00092</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00097</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Internet Button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10577</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10585</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10559</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10543</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10584</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10569</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10542</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10547</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10587</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10574</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10557</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10540</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10583</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10582</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10580</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10579</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10563</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10554</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10561</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10548</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10570</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10581</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10586</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10573</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10567</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Pebble (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00032</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00037</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00034</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00033</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00035</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00036</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00025</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00026</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00030</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00024</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00028</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00023</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00029</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00027</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00031</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Circuitry Box (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">No Barcode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dell Venue 10 Pro (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00021</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00022</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00022</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">LEAP motion (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00038</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00040</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00043</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00039</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00041</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Nest (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00090</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00089</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">muse (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00052</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Amazon Echo (MLH) (MCD IS MISSING)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">90F0071661460GXT</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">90F0071661460HEC</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String" x:Ticked="1">90F0071661460GXH</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">90F0071661460GXA</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">90F007166151009L</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String" x:Ticked="1">90F0071661460MCD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Leap Motion </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10421</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10427</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10138</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10137</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10135</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10134</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10133</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10139</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Samsung Gear VR (MLH)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00018</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00016</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00017</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00019</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Soldering Auxiliary Tool</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD000019</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD000020</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD00039</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Wired US Keyboard</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10233</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10236</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10235</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10355</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10237</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10238</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10234</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Sync Live Cam</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10251</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10249</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Amazon Fire Phone</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00050</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">00051</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Black Logitech Mice</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10228</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10353</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10229</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10227</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10231</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10232</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Black Logitech Speaker</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10302</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10303</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10304</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10305</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dive</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10704</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String" x:Ticked="1">10703</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10714</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10712</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10707</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10711</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10708</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10719</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10724</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10723</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10722</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10713</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10721</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10716</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10709</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10718</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10717</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arduino Uno</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10051</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10055</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10027</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10418</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10059</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10062</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10025</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10054</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10058</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10420</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10425</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10424</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10419</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10423</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10053</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10057</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10061</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10060</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10026</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10024</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10050</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10341</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10056</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arduino Ethernet Shield</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10063</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10043</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10339</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arduino Mega</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10430</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD000018</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10428</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10068</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10069</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10066</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10065</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10064</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arduino Sensor Shield</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10042</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arduino Yun</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10417</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Maker Kit Core Antenna (IGNORE)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100005</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100006</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100007</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100008</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100009</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100010</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100011</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100012</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100013</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100014</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100015</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100016</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100017</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100018</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100019</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100020</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100021</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100022</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100023</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100024</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100025</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100026</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100027</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100028</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100029</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Maker Kit Core Antenna Continued (IGNORE)</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100030</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100031</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100032</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100033</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100034</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Brainwave Starter Kit</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10736</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Powergen USB Charger</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10020</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10245</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10248</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10023</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10244</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10384</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10246</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10383</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10243</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10386</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10385</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10247</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10021</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD000021</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Wireless nano USB adapter</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10374</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10371</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10224</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10225</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10222</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10375</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10372</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10376</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10223</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10373</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">16 GB microSD card</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10399</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10404</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10398</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10403</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10402</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10401</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">8 GB microSD card</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10089</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10092</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Solderless Breadboard</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10416</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10413</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10415</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10414</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10119</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10120</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10121</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10115</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10117</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10113</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10118</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10349</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10346</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10122</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Raspberry Pi</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10378</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10381</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10008</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10410</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10409</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10221</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10380</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10219</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10379</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10377</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10382</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">XBOX 360 Microsoft Kinect</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10326</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10348</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">XBOX ONE Microsoft Kinect</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10737</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">NVIDIA Jetson TK1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10307</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10306</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10308</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Microsoft Kinect Adaptor for Windows</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10734</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ED emitting Diodes</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">X000A5SOQD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Resistors</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">X000QIJ37X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10197</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10196</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Microtivity LCD module</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10049</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10047</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Joystick</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10141</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10140</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">RGB LED</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10170</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Magnet-ring sensor</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10190</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ximico Mega</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10429</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Photoresistor</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10155</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Analog Temp</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10166</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">RGB LED</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10171</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">PIR Motion Sensor</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10108</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Voice Sensor</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10164</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ping Sensor</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10076</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Keyboard for Arduino</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10075</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Google Home</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD000038</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Resistor Box</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HD100035</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">AmazonBasics HDMI Cable</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10369</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10364</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10126</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10127</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10366</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10125</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">MicroUSB Cables</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10458</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10463</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HRD10453</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">AUX Cable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Amazon Basics 12-1.5V Batteries</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

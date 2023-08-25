@@ -1,0 +1,6 @@
+<!ELEMENT HackDuke2016 (hardware*)>
+<!ELEMENT hardware (item*)>
+<!ATTLIST hardware name CDATA #REQUIRED>
+<!ATTLIST hardware owner (Duke|MLH) #REQUIRED>
+<!ELEMENT item EMPTY>
+<!ATTLIST item code CDATA #REQUIRED>

@@ -1,0 +1,13 @@
+  <!ELEMENT hogwarts  (house)+>
+  <!ELEMENT house  (student)+>
+  <!ATTLIST house name CDATA #REQUIRED>
+
+  <!ELEMENT student  (deed)*>
+  <!ATTLIST student  id ID #REQUIRED>
+  <!ATTLIST student  name CDATA #REQUIRED>
+  <!ATTLIST student  pet CDATA #IMPLIED>
+  <!ATTLIST student  wand_core CDATA #IMPLIED>
+
+  <!ELEMENT deed (#PCDATA)>
+  <!ATTLIST deed datetime CDATA #REQUIRED >
+  <!ATTLIST deed points CDATA #REQUIRED>

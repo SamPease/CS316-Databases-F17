@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HackDuke2016>
+  <hardware name="AmazonBasics 4 Port USB 3.0 Hub" owner="Duke">
+    <item code="10352"/>
+    <item code="10347"/>
+    <item code="10394"/>
+    <item code="10352"/>
+    <item code="10393"/>
+    <item code="10016"/>
+    <item code="10017"/>
+    <item code="HRD10433"/>
+  </hardware>
+  <hardware name="Dell XPS Laptop w/ Charger" owner="MLH">
+    <item code="00005"/>
+    <item code="00004"/>
+    <item code="00003"/>
+  </hardware>
+</HackDuke2016>
